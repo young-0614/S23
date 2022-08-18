@@ -1,0 +1,227 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.log img{
+    padding-top : 1%;
+    margin-left: 2%;
+}
+
+.login {
+    position: absolute;
+    top : 30%;
+    right : 1%;
+    list-style: none;
+}
+
+nav{
+    position: relative;
+    list-style: none;
+    padding-top : 0.5%;
+    top : 2%;
+    border-top: 1px solid grey;
+}
+
+nav li {
+    display: inline;
+    padding: 5%;
+    padding-left: 0;
+
+}
+
+nav li:hover{
+    font-weight: bold;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 0.1%;
+  }
+
+main {
+    border-top: 1px solid grey;
+}
+
+.copy {
+    background-color: #fff;
+    height: 50%;
+    text-align: center;
+    padding: 15% 0;
+}
+
+.simple_intro {
+    text-align: center;
+    display: table;
+    margin: 0 auto; 
+}
+
+.Galaxy_S23 {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-left: 5%;
+}
+
+.Galaxy_S23 p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Galaxy_S23 img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.g_color {
+    padding : 10px;
+}
+
+.Galaxy_S23p {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-right: 5%;
+
+}
+
+.Galaxy_S23p img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.Galaxy_S23p p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.p_color {
+    padding : 1%;
+}
+
+.feature_intro {
+    text-align: center;
+    padding : 10%;
+}
+
+.dp {
+    padding-top : 15%;
+}
+
+.m_dp {
+    text-align: center;
+    display: table;
+    margin: 0 auto; 
+    padding-top : 5%;
+}
+
+.m_dp_g {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-left: 1%;
+}
+
+.m_dp_p {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-left: 1%;
+}
+
+.m_dp img {
+    width : 40%;
+}
+
+.memory {
+    position: relative;
+    padding-top : 15%;
+}
+
+.m_me {
+    padding-top : 5%;
+}
+
+.s23_m {
+    padding-right : 35%;
+}
+
+.s23p_m {
+    position: absolute;
+    bottom : 0;
+    left : 12%;
+}
+
+.g_video {
+    text-align: center;
+    height: 70vh;
+    background-color: #f5f6f8;
+}
+
+.s23p_m {
+    padding-left : 50%;
+}
+
+/*유튜브 영상 반응형으로 만들기*/
+.g_video {
+    position:relative;
+    height:0;
+    padding-bottom:56.25%;
+  }
+
+  .g_video iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+
+.footer_content {
+    border-top: 1px solid grey;
+}
+
+@media screen and (max-width:600px) {
+
+    .copy {
+        padding-top : 40%;
+    }
+
+    .simple_intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top : 40%;
+    }
+
+    .feature_intro {
+        padding-top : 30%;
+    }
+
+    .Galaxy_S23 {
+        width: 100%;
+    }
+
+    .Galaxy_S23p {
+        padding-top : 10%;
+        padding-left: 10%;
+        width : 100%;
+    }
+    
+}

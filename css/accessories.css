@@ -1,0 +1,199 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.log img{
+    padding-top : 1%;
+    margin-left: 2%;
+}
+
+.login {
+    position: absolute;
+    top : 30%;
+    right : 1%;
+    list-style: none;
+}
+
+nav{
+    position: relative;
+    list-style: none;
+    padding-top : 0.5%;
+    top : 2%;
+    border-top: 1px solid grey;
+}
+
+nav li {
+    display: inline;
+    padding: 5%;
+    padding-left: 0;
+
+}
+
+nav li:hover{
+    font-weight: bold;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 3%;
+  }
+
+
+main {
+    border-top: 1px solid grey;
+}
+
+.copy {
+    background-color: #fff;
+    height: 50%;
+    text-align: center;
+    padding: 15% 0;
+}
+
+.copy button {
+    margin: 1%;
+}
+
+.case {
+    text-align: center;
+    display: table;
+    margin: 0 auto;  /*가운데 정렬*/
+    padding-top: 25%;
+}
+
+.leather_c {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-left: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.leather_c img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.silicon_c {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    margin-top : 10%;
+    padding-right: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.silicon_c img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.music {
+    text-align: center;
+    display: table;
+    margin: 0 auto; 
+    padding-top : 30%;
+    padding-bottom : 20%;
+
+}
+
+.buds {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-left: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.buds img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.buds_pro {
+    display : table-cell;
+    vertical-align: middle;
+    width : 50%;
+    height: 50%;
+    padding-right: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.buds_pro img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.footer_content {
+    border-top: 1px solid grey;
+}
+
+@media screen and (max-width:600px) {
+
+    .copy {
+        padding-top : 50%;
+    }
+
+    .case {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30%;
+        padding-bottom: 15%;
+    }
+
+    .leather_c {
+        font-size: 1.5rem;
+        width : 100%;
+        margin-top : 10%;
+        margin-right : 18%;
+    }
+    .silicon_c {
+        font-size: 1.5rem;
+        width : 100%;
+        margin-left : 12%;
+    }
+
+    .music {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25%;
+    }
+
+    .buds {
+        font-size: 1.5rem;
+        width : 100%;
+        margin-top : 10%;
+        margin-right : 18%;
+    }
+
+    .buds_pro {
+        font-size: 1.5rem;
+        padding-top : 10%;
+        width : 100%;
+        margin-left : 12%;
+    }
+    
+}
